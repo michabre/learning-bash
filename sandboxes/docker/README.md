@@ -11,11 +11,17 @@ docker ps
 # login into image
 docker exec -it <name> bash
 
+# access data folder
+cd /mnt/data
+
 # update 
 apt update
 
 # install nano
 apt-get install nano
+
+# shutdown ubuntu
+docker-compose down
 
 ```
 

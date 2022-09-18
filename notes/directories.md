@@ -58,15 +58,4 @@ rm -r <directory>
 # remove without warnings
 rm -rf --no-preserve-root <directory>
 
-
-
-
-
-
-
-
-
-
-
 ```
-
