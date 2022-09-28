@@ -14,6 +14,7 @@
 | grep | search text |
 | head *filename* | print first 10 lines of *filename* |
 | tail *filename* | print last 10 lines of *filename* |
+| rm -rf *dir* | force delete a full *directory* |
 
 ## Keyboard Shortcuts
 
