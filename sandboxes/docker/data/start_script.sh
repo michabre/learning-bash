@@ -20,3 +20,12 @@ else
     echo "nano is not available. Installing it..."
     apt-get install -y nano
 fi
+
+# check if tar exists
+if command -v tar
+then
+    echo "tar is available. Let's run it..."
+else
+    echo "tar is not available. Installing it..."
+    apt-get install -y tar
+fi
